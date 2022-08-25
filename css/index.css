@@ -1,0 +1,241 @@
+header {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 1rem 0rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(255, 104, 175);
+    font-size: 4rem;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 1rem;
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu li {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    color: var(--color2);
+}
+
+.banner {
+    width: 100%;
+    height: 55rem;
+    background-image: url(./../img/bloque_1.png);
+    background-position: center;
+
+    position: relative;
+}
+
+.banner .contenido_banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+}
+
+.contenido_banner span, h1, p {
+    color: var(--color4);
+
+}
+
+.contenido_banner span {
+    font-size: 2rem;
+}
+
+.contenido_banner h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.contenido_banner p {
+    font-size: 1.7rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.boton {
+    text-decoration: none;
+    display: block;
+    width: 21rem;
+    height: 5rem;
+    background-color: var(--color1);
+    color: var(--color4);
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    margin: auto;
+    margin-top: 2rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*About Rappi*/
+
+.About-Rappi {
+    width: 100%; 
+}
+
+.About-Rappi .titulo {
+    width: 100%;
+    background-color: var(--color5);
+    padding: 4rem 2rem;
+}
+
+.About-Rappi .titulo h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.About-Rappi .titulo h3 span {
+    font-weight: 900;
+}
+
+.About-Rappi .titulo h3 hr {
+    margin: 0 1rem;
+}
+
+.About-Rappi .titulo h2 {
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.contenido {
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.contenido p {
+    font-size: 1.5rem;
+    color: var(--color2);
+    padding: 1rem;
+}
+
+.botones {
+    padding: 3rem;
+    display: flex;
+}
+
+.team {
+    text-decoration: none;
+    display: block;  
+    width: 15rem;
+    height: 5rem;
+    box-shadow: 1px 2px 64px -2px rgba(255,113,117,1);
+    background-color: var(--color1);
+    color: var(--color4);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    text-decoration: none;
+    display: block;
+    border: 2px solid var(--color1);
+    width: 12rem;
+    height: 5rem; 
+    color: var(--color1);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.8rem;
+}
+
+.what-makes-rappi-great {
+    width: 100%;
+}
+
+.what-makes-rappi-great .carrousel {
+    width: 100%;
+    background-color: var(--color4);
+    padding: 4rem 2rem;
+}
+
+.what-makes-rappi-great .carrousel h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.what-makes-rappi-great .carrousel h3 span {
+    font-weight: 900;
+}
+
+.what-makes-rappi-great .carrousel h3 hr {
+    margin: 0 1rem;
+}
+
+.open-positions {
+    width: 100%;
+}
+
+.what-makes-rappi-great .open-positions {
+    width: 100%;
+    background-color: rgb(245, 112, 112);
+    padding: 4rem 2rem;
+}
+
+.what-makes-rappi-great .open-positions h3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--color4);
+}
+
+.what-makes-rappi-great .open-positions h3 span {
+    font-weight: 900;
+    color: var(--color4);
+}
+
+.what-makes-rappi-great .open-positions h3 hr {
+    margin: 0 1rem;
+    color: var(--color4);
+}
+
+.open-positions h2 {
+    font-size: 5rem;
+    margin-top: 3rem;
+    color: var(--color4);  
+}
+
+.open-positions p {
+    font-size: 1.5rem;
+    color: var(--color4);
+    padding: 1rem;
+}
